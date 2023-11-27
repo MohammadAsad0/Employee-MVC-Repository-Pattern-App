@@ -1,0 +1,12 @@
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\bin\Release\net6.0\DTOs.deps.json
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\bin\Release\net6.0\DTOs.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\bin\Release\net6.0\DTOs.pdb
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.AssemblyInfo.cs
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\refint\DTOs.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\DTOs.pdb
+C:\Users\Masad.27444\source\repos\AsadMVC\DTOs\obj\Release\net6.0\ref\DTOs.dll

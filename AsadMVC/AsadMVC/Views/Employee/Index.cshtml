@@ -1,0 +1,33 @@
+﻿@using AsadMVC.Models;
+@model EmployeeListModel;
+
+<h1>Employees Records</h1>
+
+<span class="btn btn-outline-dark ">@Html.ActionLink("Create New", "Create")</span>
+@*<p>@Html.ActionLink("Create New", "Edit")</p>
+<p>@Html.ActionLink("Create New", "Delete")</p>*@
+
+@Html.ValidationSummary(true, "", new {@class = "alert alert-danger"})
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Father</th>
+        <th>Designation</th>
+        <th>Department</th>
+    </tr>
+    @foreach (EmployeeModel item in Model.Employees)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Father</td>
+            <td>@item.Designation</td>
+            <td>@item.Department</td>
+            <td>@Html.ActionLink("Display", "Display", new {item.Id})</td>
+            <td>@Html.ActionLink("Edit", "Edit", new {item.Id})</td>
+            <td>@Html.ActionLink("Delete", "Delete", new {item.Id})</td>
+        </tr>
+    }
+
+</table>

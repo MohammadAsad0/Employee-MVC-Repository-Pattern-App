@@ -1,0 +1,17 @@
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\Services.deps.json
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\Services.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\Services.pdb
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\DTOs.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\Repository.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\DTOs.pdb
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\bin\Debug\net6.0\Repository.pdb
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\refint\Services.dll
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\Services.pdb
+C:\Users\Masad.27444\source\repos\AsadMVC\Services\obj\Debug\net6.0\ref\Services.dll

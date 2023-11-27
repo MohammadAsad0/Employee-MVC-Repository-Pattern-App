@@ -1,0 +1,40 @@
+﻿@using AsadMVC;
+@model CustomerModel;
+
+<div>
+    <h1>Create</h1>
+
+    @Html.ValidationSummary(true, "", new {@class = "alert alert-danger"})
+
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "CustomerForm" }))
+    {
+        <table class="table bg-dark text-white rounded-3">
+            <tr>
+                <th>ID</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.Id)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+            <tr>
+                <th>Account Number</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.AccountNo)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.AccountNo, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.Name)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit" class="btn btn-dark" id="CmdSave">Submit</button>
+    }
+</div>

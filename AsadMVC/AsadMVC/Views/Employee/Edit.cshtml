@@ -1,0 +1,49 @@
+﻿@using AsadMVC.Models
+@model EmployeeModel
+
+<div>
+    <h1>
+        Edit
+    </h1>
+    @Html.ValidationSummary(true, "", new {@class = "alert alert-danger"})
+
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "EmpEditForm" }))
+    {
+        <table class="table bg-dark text-white rounded-3">
+            <tr>
+                <th>Name</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.Name)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+            <tr>
+                <th>Father</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.Father)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.Father, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+            <tr>
+                <th>Designation</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.Designation)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.Designation, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+            <tr>
+                <th>Department</th>
+                <td>
+                    @Html.TextBoxFor(a=>a.Department)
+                    <br />
+                    @Html.ValidationMessageFor(model => model.Department, "", new { @class = "text-danger"})
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit" class="btn btn-dark" id="CmdEditSave">Submit</button>
+    }
+</div>
